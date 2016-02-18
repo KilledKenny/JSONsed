@@ -12,6 +12,7 @@ sed '
 #Load entire file into buffer
 :a;N;$!ba;
 
+s/\n\t\+/\n/g
 
 #Striping newlines
 s/\n\n\+/\n/g
