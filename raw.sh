@@ -16,7 +16,7 @@ s/^[ \t\r\n]\+//#Cleen
 
 
 #All one charactes expept . 
-/^,\|^:\|^\[\|^\]\|^}\|^{/{
+/^\([,:{}]\|\]\|\[\)/{
 #Pre Flusher
 /^\]\|^}\|^{/{
 x
